@@ -4,9 +4,9 @@ mkdir  创建文件夹
 
 cd   进入文件夹
 
-cat ----  显示文件内容
+cat file  显示文件内容
 
-vi ---   进入编辑器编辑文件
+vi  file   进入编辑器编辑文件
 
 pwd  查看当前目录
 
@@ -14,13 +14,13 @@ git version   查看git版本
 
 git init  创建版本库
 
-git add  --  把文件添加到版本库
+git add  file  把文件添加到版本库
 
 git commit -m "fsdfsdf"  把文件提交到仓库  并附加说明
 
 git status  查看版本库状态
 
-git diff ---  查看修改内容
+git diff file  查看修改内容
 
 git log 查看版本历史节点
 
@@ -32,4 +32,7 @@ git reset --hard HEAD~100  回退到之前100个版本
 
 git reflog   查看历史命令
 
+git diff HEAD -- file   查看工作区和版本库最新版本的区别
 
+
+git checkout --file   让文件回到最近一次git commit或git add时的状态。  
