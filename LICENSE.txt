@@ -73,3 +73,9 @@ git branch dev  创建分支
 git checkout dev   切换到dev分支
 
 git branch    查看当前分支  “*”标识当前分支
+
+git merge <分支的name>  合并某个分支到当前分支
+
+git branch -d <分支的name>   删除分支
+
+
