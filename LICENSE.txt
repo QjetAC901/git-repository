@@ -1,5 +1,8 @@
 我在练习Linux命令行
 
+
+/***************LINUX基本命令行**********************/
+
 mkdir  创建文件夹
 
 cd   进入文件夹
@@ -9,6 +12,11 @@ cat file  显示文件内容
 vi  file   进入编辑器编辑文件
 
 pwd  查看当前目录
+
+rm file   删除文件
+
+
+/*******************Git  命令行[M 6D**********************************/
 
 git version   查看git版本
 
@@ -35,4 +43,6 @@ git reflog   查看历史命令
 git diff HEAD -- file   查看工作区和版本库最新版本的区别
 
 
-git checkout --file   让文件回到最近一次git commit或git add时的状态。  
+git checkout --file   让文件回到最近一次git commit或git add时的状态。 
+
+git rm file   从版本库中删除文件
