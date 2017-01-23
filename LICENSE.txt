@@ -61,3 +61,11 @@ git push origin master   除去第一次 以后提交可以这么提交
 
 git clone git@github.com:LanguidSheep/gitskills.git  从网络克隆一个本地库
 	<备注：LanguidSheep为GitHub的名字>
+
+git checkout -b dev    创建分支 命名为dev  并切换到这个分支
+
+git branch dev  创建分支
+
+git checkout dev   切换到dev分支
+
+git branch    查看当前分支  “*”标识当前分支
