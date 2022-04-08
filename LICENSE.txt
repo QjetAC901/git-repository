@@ -79,7 +79,3 @@ git merge <分支的name>  合并某个分支到当前分支
 git branch -d <分支的name>   删除分支
 
 git log --graph --pretty=oneline --abbrev-commit  查看分支的合并情况
-
-
-呵呵呵
-
